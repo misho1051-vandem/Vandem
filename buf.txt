@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Вандем ООД | Онлайн обучителни програми</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f6f8fb;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#1a2a6c,#2b5876);
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+opacity:0.9;
+}
+
+nav{
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+margin:0 18px;
+text-decoration:none;
+color:#1a2a6c;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:70px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.hero h2{
+font-size:34px;
+color:#1a2a6c;
+}
+
+.hero p{
+font-size:18px;
+margin-top:15px;
+}
+
+.button{
+display:inline-block;
+margin-top:25px;
+background:#1a2a6c;
+color:white;
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.button:hover{
+background:#0f1b4c;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card h3{
+color:#1a2a6c;
+}
+
+section{
+margin-bottom:60px;
+}
+
+footer{
+background:#1a2a6c;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Вандем ООД</h1>
+<p>Разпространение и популяризиране на онлайн обучителни програми</p>
+
+</header>
+
+<nav>
+<a href="#about">За нас</a>
+<a href="#services">Дейност</a>
+<a href="#partners">Партньори</a>
+<a href="#platform">Обучения</a>
+<a href="#contact">Контакти</a>
+</nav>
+
+<div class="hero">
+
+<h2>Достъп до знания за по-широка аудитория</h2>
+
+<p>
+Свързваме качествените онлайн обучителни програми
+с хората, които искат да се развиват и да придобиват нови умения.
+</p>
+
+<a class="button" href="https://studio.deviflow.com" target="_blank">
+Разгледай обученията
+</a>
+
+</div>
+
+<div class="container">
+
+<section id="about">
+
+<h2>За компанията</h2>
+
+<div class="card">
+
+<p>
+Vandem е компания, която се занимава с разпространението
+и популяризирането на онлайн обучителни програми
+и дигитално образователно съдържание.
+</p>
+
+<p>
+Нашата мисия е да направим качественото образование
+по-достъпно чрез съвременни онлайн платформи
+и партньорства с експерти и създатели на знания.
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Нашата дейност</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Онлайн обучение</h3>
+<p>
+Популяризиране и разпространение
+на съвременни обучителни програми.
+</p>
+</div>
+
+<div class="card">
+<h3>Дигитално съдържание</h3>
+<p>
+Подкрепа на създатели на образователно
+и професионално обучително съдържание.
+</p>
+</div>
+
+<div class="card">
+<h3>Маркетинг и аудитория</h3>
+<p>
+Помагаме на програмите да достигнат
+до по-широка аудитория онлайн.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="partners">
+
+<h2>Партньори</h2>
+
+<div class="card">
+
+<p>
+Работим в партньорство със създатели на знания
+и образователни платформи,
+сред които и <strong>DeviFlow</strong>.
+</p>
+
+<p>
+Чрез тези партньорства подпомагаме развитието
+на модерни онлайн обучителни програми.
+</p>
+
+</div>
+
+</section>
+
+<section id="platform">
+
+<h2>Платформа за обучения</h2>
+
+<div class="card">
+
+<p>
+Всички програми и обучения могат да бъдат разгледани
+и достъпени чрез платформата:
+</p>
+
+<p><strong>studio.deviflow.com</strong></p>
+
+<a class="button" href="https://studio.deviflow.com" target="_blank">
+Посети платформата
+</a>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Контакти</h2>
+
+<div class="card">
+
+<p><strong>Фирма:</strong> Вандем ООД</p>
+
+<p>
+За въпроси относно обученията
+или партньорства можете да се свържете с нас.
+</p>
+
+<p>
+Онлайн платформата за обучения:
+<br>
+https://studio.deviflow.com
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 Вандем ООД</p>
+<p>Разпространение на онлайн обучителни програми</p>
+
+</footer>
+
+</body>
+</html>
